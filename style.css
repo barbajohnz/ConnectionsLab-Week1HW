@@ -208,12 +208,12 @@ section:last-of-type img[src="dumbbells.jpg"]:hover {
 
 /* Yoga Mat transforms to Hash Brown - Rotated Left */
 section:last-of-type img[src="yogamat.jpg"] {
-    transform: rotate(-90deg);
+    transform: rotate(0deg);
 }
 
 section:last-of-type img[src="yogamat.jpg"]:hover {
     content: url('hashbrown.jpg');
-    transform: rotate(-90deg) scale(1.1) translateY(-10px);
+    /* transform: rotate(-90deg) scale(1.1) translateY(-10px); */
 }
 
 /* Rowing Machine transforms to Mashed Potato */
